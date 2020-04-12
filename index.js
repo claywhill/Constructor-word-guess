@@ -1,7 +1,7 @@
 var inquirer = require("inquirer"); 
 var word = require("./word");
 
-function start() {
+function playGame() {
     inquirer.prompt([
     {
         type: "input",
@@ -19,5 +19,6 @@ function start() {
 })
 }
 
-start();
+playGame();
 
+console.log(word);
