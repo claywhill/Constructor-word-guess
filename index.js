@@ -20,5 +20,3 @@ function playGame() {
 }
 
 playGame();
-
-console.log(word);
